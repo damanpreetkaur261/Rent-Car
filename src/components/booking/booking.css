@@ -1,0 +1,44 @@
+.card {
+  width: 350px;
+  background: white;
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.tabs {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.tabs span {
+  cursor: pointer;
+  color: gray;
+}
+
+.tabs .active {
+  color: green;
+  font-weight: bold;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+}
+
+.date-row {
+  display: flex;
+  gap: 10px;
+}
+
+.search-btn {
+  width: 100%;
+  background: green;
+  color: white;
+  padding: 12px;
+  border: none;
+  margin-top: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
