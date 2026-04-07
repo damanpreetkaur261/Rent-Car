@@ -1,0 +1,12 @@
+.div1{
+    display: flex;
+    justify-content: space-between;
+}
+.btn2{
+    color: white;
+    background-color: black;
+    padding: 7px;
+    font-size: 17px;
+    border-radius: 5px;
+    width: 100%;
+}

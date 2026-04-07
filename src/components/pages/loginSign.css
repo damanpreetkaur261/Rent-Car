@@ -1,0 +1,38 @@
+.phone-input {
+  display: flex;
+  align-items: center;
+  border: 2px solid green;
+  border-radius: 6px;
+  overflow: hidden;
+  width: 280px;
+  background: #fff;
+}
+
+.prefix {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 10px;
+  background: #f5f5f5;
+  border-right: 1px solid #ccc;
+}
+
+.flag {
+  width: 24px;
+  height: 16px;
+  object-fit: cover;
+}
+
+.input {
+  border: none;
+  outline: none;
+  padding: 8px 10px;
+  flex: 1;
+  font-size: 14px;
+}
+.login-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
