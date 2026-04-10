@@ -47,7 +47,7 @@ const ChooseCity=()=>{
                 </div> 
             </div>
             <center>
-                <button>View More-</button>
+                <button>View More</button>
             </center>
         </div>
     )

@@ -11,3 +11,12 @@
   display: flex;
   justify-content: space-between;
 }
+.ground{
+   background-color: rgb(240, 238, 238);
+    margin: 60px;
+    padding: 30px;
+    border-radius: 9px;
+}
+.display{
+  display: flex;
+}

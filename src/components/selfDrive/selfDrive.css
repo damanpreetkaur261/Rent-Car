@@ -1,0 +1,21 @@
+.span1{
+    background-color: green;
+    color: white;
+    padding: 5px;
+}
+.flex{
+    display: flex;
+  
+}
+.image{
+    border-radius: 9px;
+}
+#padding{
+    padding-left: 40px;
+}
+.bg{
+    background-color: rgb(250, 236, 236);
+    margin: 60px;
+    padding: 30px;
+    border-radius: 9px;
+}

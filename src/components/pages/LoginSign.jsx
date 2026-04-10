@@ -26,7 +26,7 @@ const LoginSign = () => {
             placeholder="Enter phone number"
             className="input"
           />
-          <button>GET OTP</button>
+          <button >GET OTP</button>
         </div>
 
       </div>

@@ -10,8 +10,9 @@ import Features from "./components/features/Features";
 import { useState,useEffect } from "react";
 import TopCategories from "./components/topCategories/TopCategories";
 import PerfectCar from "./components/perfectCar/PerfectCar";
+import SelfDrive from "./components/selfDrive/SelfDrive";
+import RecentBlog from "./components/recentBlog/RecentBlog";
 import './App.css';
-import ChooseCity from "./components/pages/ChooseCity";
 
 export default function App() {
   const images=[carsImg1,carsImg2,carsImg3];
@@ -36,12 +37,12 @@ export default function App() {
         <Promo />
       </div>
       <TopCars />
-
        <StepsSection />
        <Features/>
        <TopCategories/>
        <PerfectCar/>
-       {/* <ChooseCity/> */}
+      <SelfDrive/>
+      <RecentBlog/>
     </div>
   );
 }

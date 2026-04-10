@@ -2,11 +2,11 @@ import "./perfectCar.css"
 const PerfectCar=()=>{
 
     return(
-        <div>
+        <div className="spacing">
             <div>
                 <center>
             <h1>Perfect Car for Every Journey in India</h1>
-            <p>Whether you're traveling with family, heading out for a solo trip, or simply looking for a great drive in<br></br>
+            <p style={{color:"grey"}}>Whether you're traveling with family, heading out for a solo trip, or simply looking for a great drive in<br></br>
                  a premium car, Zoomcar offers the best alternatives to car rentals in 30,000+ options.</p>
                  </center>
            </div>

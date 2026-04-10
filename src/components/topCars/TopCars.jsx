@@ -1,14 +1,15 @@
-import React from "react";
 import "./TopCars.css";
 import cars from "../data/cars";
 
 const TopCars = () => {
   return (
     <>
-    <div>
+    <div className="ground">
       <div className="topcars">
         <h2>Top Cars in Bangalore</h2>
       </div>
+      <div className="display">
+      <button><img src="src\assets\left-arrow-white.svg" alt="left Arrow" /></button>
         <div className="cars">
           {cars.map((car) => (
             <div key={car.id}>
@@ -31,6 +32,8 @@ const TopCars = () => {
               </div>
             </div>
           ))}
+        </div>
+        <button><img src="src\assets\right-arrow-white.svg" alt="right arrow" /></button>
         </div>
       </div>
     </>
