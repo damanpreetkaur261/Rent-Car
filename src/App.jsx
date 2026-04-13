@@ -12,6 +12,7 @@ import TopCategories from "./components/topCategories/TopCategories";
 import PerfectCar from "./components/perfectCar/PerfectCar";
 import SelfDrive from "./components/selfDrive/SelfDrive";
 import RecentBlog from "./components/recentBlog/RecentBlog";
+import ZoomAround from "./components/zoomAround/ZoomAround";
 import './App.css';
 
 export default function App() {
@@ -43,6 +44,7 @@ export default function App() {
        <PerfectCar/>
       <SelfDrive/>
       <RecentBlog/>
+      <ZoomAround/>
     </div>
   );
 }
